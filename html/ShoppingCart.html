@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="../css/frontPage.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="#" class="logo">amazon</a>
+        <form class="search-bar">
+            <input type="text" placeholder="Search Amazon">
+            <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+        <div class="nav-links">
+            <a href="#">Sign In</a>
+            <a href="ShoppingCart.html" id="cart-link">Cart</a>
+        </div>
+    </div>
+    <div class="cart-container">
+        <h1>Your Shopping Cart</h1>
+        <div class="cart-items">
+            <!-- Cart items will be dynamically inserted here -->
+        </div>
+        <div class="cart-total">
+            <h2>Total: $<span id="total-price">0.00</span></h2>
+        </div>
+        <button id="checkout-button">Proceed to Checkout</button>
+    </div>
+    <script src="../js/frontPage.js"></script>
+</body>
+</html>
